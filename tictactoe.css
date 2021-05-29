@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    background-color: #c7cfb7;
+}
+#game_status{
+    color:gray;
+}
+#game_block{
+    width: 350px;
+    height: 350px;
+    background-image: url(tile.jpg);
+    margin: auto ;
+    margin-top: 10vh;
+    border-radius: 30px;
+}
+#game_container{
+    width: 310px;
+    height: 310px;
+    display: grid;
+    grid-template-columns: repeat(3,103px);
+    padding: 20px;
+}
+.cell{
+    font-size: xx-large;
+    color:black;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    
+}
+
+#t1,#t2,#t4,#t5,#t7,#t8{
+    border-right:black  3px solid;
+}
+#t4,#t5,#t6,#t7,#t8,#t9{
+    border-top:black  3px solid;
+}
+#restart{
+    font-size: medium;
+    padding: 10px;
+    color: floralwhite;
+    background-color: #00303f;
+    border-radius: 15px;
+    border: none;
+}
+
